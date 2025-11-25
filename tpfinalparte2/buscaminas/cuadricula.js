@@ -1,6 +1,5 @@
 class Cuadricula {
   constructor() {
-    // CREAR MATRIZ VACÍA
     this.celdas = [];
     for (let columna = 0; columna < COLUMNAS; columna++) {
       this.celdas[columna] = []; 
