@@ -1,0 +1,58 @@
+body {
+    background-color: #fdf5e6; 
+    font-family: 'Merriweather', serif;
+    color: #4a4a4a;
+}
+
+h1, h2, h3, h4, .navbar-brand {
+    font-family: 'Cinzel', serif;
+    color: #5c4033;
+}
+
+.navbar-custom {
+    background-color: #d2b48c;
+}
+
+.jumbotron-custom {
+    background-color: #faebd7;
+    border: 1px solid #d2b48c;
+}
+
+.card {
+    background-color: #fffaf0;
+    border: none;
+}
+
+.page {
+    display: none; 
+}
+.page.active {
+    display: block; 
+}
+
+#game-iframe-container {
+    width: 100%;
+    max-width: 660px; 
+    height: 500px;    
+    background-color: #000;
+    border: 4px double #8b4513;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#game-iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+}
+
+.btn-info {
+    background-color: #20b2aa;
+    border-color: #20b2aa;
+    color: white;
+}
+.btn-info:hover {
+    background-color: #008b8b;
+    border-color: #008b8b;
+}
